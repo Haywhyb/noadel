@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+    height: 900px;
+    width: 950px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#container{
+    text-align: center;
+
+
+}
+.class part1{
+    color: lightblue;
+    border: solid, 10px, #333;
+    border-radius: 5%;
+}

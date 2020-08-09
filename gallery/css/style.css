@@ -77,3 +77,7 @@ body {
     border: black 3px solid;
     border-radius: 10px;
 }
+.images:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}

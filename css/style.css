@@ -23,8 +23,10 @@
     padding: 15px;
     margin-top: 14px;
     color: black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
-.container_nav a:hover {
+.container_nav a:hover:not(:nth-child(1)) {
     background-color: grey;
     color: honeydew;
     text-decoration: underline;

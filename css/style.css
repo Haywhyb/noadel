@@ -24,7 +24,7 @@
     margin-top: 14px;
     color: black;
 }
-.container_nav a:hover {
+.container_nav a:hover:not(:nth-child(1)) {
     background-color: grey;
     color: honeydew;
     text-decoration: underline;

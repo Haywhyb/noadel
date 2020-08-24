@@ -1,0 +1,228 @@
+/*******default style*********/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*********section navbar styling*********/
+.navbar {
+    display: absolute;
+    width: 100%;
+    height: 500px;
+    background: url(../images/banner.png);
+}
+.container_nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(212, 215, 218, 0.7) 0%, rgba(255, 255, 255, 0) 100%), rgba(242, 242, 242, 0.7);
+}
+.container_nav a:not(:nth-child(1)) {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    float: right;
+    padding: 15px;
+    margin-top: 14px;
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container_nav a:hover:not(:nth-child(1)) {
+    background-color: grey;
+    color: honeydew;
+    text-decoration: underline;
+}
+
+/**********product style****************/
+
+.service1 {
+    display: inline-block;
+    width: 300px;
+    margin: 80px;
+}
+.our_product {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+}
+.service1 h5 {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.service1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.service1 a:hover {
+    text-decoration: underline;
+}
+
+/***********     footer styling     ***********/
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(212, 215, 218, 0.7);
+}
+.foot {
+    width: 1425px;
+    height: 70px;
+    background: linear-gradient(to right, silver, grey,gray);
+
+}
+.footer .foota {
+    display: inline-block;
+    padding: 20px;
+    width: 400px;
+    height: 270px;
+    margin: 10px;
+}
+.footer .foota h3, p{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+    text-align: justify;
+}
+
+.foot h3 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/************about section styling*********** */
+
+.about p{
+    text-align: justify;
+    margin-left: 420px;
+    padding: 15px;
+    font-family: cursive;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 45px;
+    text-decoration: wavy;
+    padding: 5px;   
+}
+/************learn more styling ************/
+
+.learnmore h2 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.team_img {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.team_img h2 {
+    text-transform: capitalize;
+    
+}
+.team_img:hover {
+    transform: scale(1.2);
+}
+.team h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.learnmore .more {
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: rgba(212, 215, 218, 0.7);
+    margin: 50px;
+}
+.learnmore .more p {
+    text-align: justify;
+    padding: 10px;
+}
+.team_img img {
+    border-radius: 50%;
+    text-align: center;
+}
+.team_img p {
+    text-align: center;
+}
+
+@media(max-width:820px) {
+    .navbar {
+        width: 100%;
+        background: url(../images/banner.png);
+        background-size: cover;
+    }
+   
+    .navbar .container_nav {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, rgba(212, 215, 218, 0.7) 0%, rgba(255, 255, 255, 0) 100%), rgba(242, 242, 242, 0.7);
+    }
+    .navbar .container_nav img {
+        width: 30%;
+        float: left;
+    }
+    .navbar .container_nav a:not(:nth-child(1)) {
+        width: 60%;
+        float: right;
+    }
+    /************section ptoduct************** */
+    .brand {
+        width: 100%;
+        height: auto;
+    }
+    .service1 img {
+        width: 85%;
+    }
+/* learn more */
+    .learnmore {
+        width: 100%;
+        height: auto;
+    }
+    .learnmore .more {
+        width: 85%;
+    }
+    /*********** meet the team *********/
+    .meet {
+        width: 100%;
+        height: auto;
+    }
+    .meet .team {
+        width: 100%;
+        height: auto;
+    }
+    .meet .team_img:nth-child(even) {
+        width: 35%;
+    }
+    .meet .team_img:nth-child(odd) {
+        width: 35%;
+    }
+    /********** footer section *********/
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+    .footer .foota:not(:nth-child(3)) {
+        width: 35%;
+    }
+    .footer .foota:nth-child(3) {
+        width: 85%;
+    }
+    .foot {
+        width: 100%;
+    }
+
+}
